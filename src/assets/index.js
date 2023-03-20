@@ -25,6 +25,9 @@ import meta from "./company/meta.png";
 import shopify from "./company/shopify.png";
 import starbucks from "./company/starbucks.png";
 import tesla from "./company/tesla.png";
+import igenesis from "./company/igenesis.png";
+import quanta from "./company/quanta.png";
+import appacademy from "./company/app academy.webp";
 
 import carrent from "./carrent.png";
 import jobit from "./jobit.png";
@@ -59,4 +62,7 @@ export {
   carrent,
   jobit,
   tripguide,
+  igenesis,
+  quanta,
+  appacademy,
 };

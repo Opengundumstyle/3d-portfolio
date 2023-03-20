@@ -18,11 +18,14 @@ import {
     meta,
     starbucks,
     tesla,
+    appacademy,
     shopify,
     carrent,
     jobit,
     tripguide,
     threejs,
+    igenesis,
+    quanta,
   } from "../assets";
   
   export const navLinks = [
@@ -31,8 +34,8 @@ import {
       title: "About",
     },
     {
-      id: "work",
-      title: "Work",
+      id: "projects",
+      title: "Projects",
     },
     {
       id: "contact",
@@ -116,10 +119,10 @@ import {
   
   const experiences = [
     {
-      title: "React.js Developer",
-      company_name: "Starbucks",
-      icon: starbucks,
-      iconBg: "#383E56",
+      title: "Software engineering intern",
+      company_name: "igenesis biotech",
+      icon: igenesis,
+      iconBg: "white",
       date: "March 2020 - April 2021",
       points: [
         "Developing and maintaining web applications using React.js and other related technologies.",
@@ -129,10 +132,10 @@ import {
       ],
     },
     {
-      title: "React Native Developer",
-      company_name: "Tesla",
-      icon: tesla,
-      iconBg: "#E6DEDD",
+      title: "IT/software engineer intern",
+      company_name: "Quanta Computer",
+      icon: quanta,
+      iconBg: "gray",
       date: "Jan 2021 - Feb 2022",
       points: [
         "Developing and maintaining web applications using React.js and other related technologies.",
@@ -142,9 +145,9 @@ import {
       ],
     },
     {
-      title: "Web Developer",
-      company_name: "Shopify",
-      icon: shopify,
+      title: "student",
+      company_name: "App Academy",
+      icon: appacademy,
       iconBg: "#383E56",
       date: "Jan 2022 - Jan 2023",
       points: [
@@ -156,7 +159,7 @@ import {
     },
     {
       title: "Full stack Developer",
-      company_name: "Meta",
+      company_name: "",
       icon: meta,
       iconBg: "#E6DEDD",
       date: "Jan 2023 - Present",
