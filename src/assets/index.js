@@ -29,9 +29,15 @@ import igenesis from "./company/igenesis.png";
 import quanta from "./company/quanta.png";
 import appacademy from "./company/app academy.webp";
 
-import carrent from "./carrent.png";
 import jobit from "./jobit.png";
-import tripguide from "./tripguide.png";
+import lab from "./lab.png";
+import eats from "./eats.png";
+import brianeats from "./BrianEatSnapShot.png";
+import brandai from "./brandai.png";
+import teamsync from "./teamsync.png";
+import astroscience from './astroscientific.png';
+import cpn from './cpn.png'
+import astor2 from './astor2.png'
 
 export {
   logo,
@@ -59,10 +65,16 @@ export {
   shopify,
   starbucks,
   tesla,
-  carrent,
   jobit,
-  tripguide,
   igenesis,
   quanta,
   appacademy,
+  eats,
+  lab,
+  brianeats,
+  brandai,
+  teamsync,
+  astroscience,
+  cpn,
+  astor2
 };

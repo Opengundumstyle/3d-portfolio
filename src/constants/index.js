@@ -16,16 +16,19 @@ import {
     figma,
     docker,
     meta,
-    starbucks,
-    tesla,
     appacademy,
-    shopify,
-    carrent,
-    jobit,
-    tripguide,
     threejs,
     igenesis,
     quanta,
+    eats,
+    lab,
+    brianeats,
+    brandai,
+    teamsync,
+    astroscience,
+    cpn,
+    astor2,
+    logo,
   } from "../assets";
   
   export const navLinks = [
@@ -57,7 +60,7 @@ import {
       icon: backend,
     },
     {
-      title: "Content Creator",
+      title: "Co-Founder",
       icon: creator,
     },
   ];
@@ -125,10 +128,10 @@ import {
       iconBg: "white",
       date: "March 2020 - April 2021",
       points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
+        "Collaborated with front-end team to enhance GUI features using RESTful APIs in Django, following SRS for the Nano Sniffer biotechnical device, improving client-side operation.",
+        "Managed sprint product backlogs, developed object-oriented Java classes, and implemented communication protocol for data transfer during device engine testing under Sr engineer's supervision.",
+        "Collaborated with Sr Software Engineer to optimize program runtime by debugging and testing errors during product implementation.",
+        "Implemented hardware support applications and software development tools using Unix OS, enhancing UI and increasing developer workflow efficiency by 20%",
       ],
     },
     {
@@ -138,10 +141,9 @@ import {
       iconBg: "gray",
       date: "Jan 2021 - Feb 2022",
       points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
+        "Collaborated with backend engineers to rebuild and consolidate the UI using Retool, transitioning from a single page to a multiple page layout to support cross-functional departments. The result was a 25% improvement in workflow and a 30% increase in human resource cost-efficiency.",
+        "Co-managed with the IT manager and project manager to implement a database migration project from excel to MySQL",
+        "Participated in and led one of the iterative prototyping stages with Figma regarding user and system requirements for building clear and responsive backend UI",
       ],
     },
     {
@@ -151,22 +153,22 @@ import {
       iconBg: "#383E56",
       date: "Jan 2022 - Jan 2023",
       points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
+        "Designed and built database model and schema by working closely with PostgreSQL and Ruby on Rails framework while constructing React components with Redux to accomplish dynamic CRUD features in a two-week time frame.",
+        "Developed encapsulated callback functions to create asynchronous API fetching patterns, resulting in improved application scalability and enhanced search capabilities with additional categories.",
+        "Collaborated with team lead to develop a dynamic,real-time chatbox component with socket.io resulting in a streamlined implementation by cross communicating with UI designer and backend engineer within a strict timeline.",
+        "Streamlined user authentication and registration http request by working closely with Axios, Jwt web token and Mongoose to secure user information and enhance new user’s profile-creating experience. ",
       ],
     },
     {
       title: "Full stack Developer",
       company_name: "",
-      icon: meta,
+      icon: logo,
       iconBg: "#E6DEDD",
       date: "Jan 2023 - Present",
       points: [
         "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
+        "Research new technologies and programming languages to stay up-to-date with the latest trends in full stack development.",
+        "Collaborate with sr software engineers and scientist as tech-lead to create use case and build a web app platform within lifescience domain, which generates 10k pageviews in the initial stage.",
         "Participating in code reviews and providing constructive feedback to other developers.",
       ],
     },
@@ -175,18 +177,18 @@ import {
   const testimonials = [
     {
       testimonial:
-        "I thought it was impossible to make a website as beautiful as our product, but Rick proved me wrong.",
-      name: "Sara Lee",
-      designation: "CFO",
-      company: "Acme Co",
-      image: "https://randomuser.me/api/portraits/women/4.jpg",
+        "Brian is the best jungle NA, duoing with him gets the seemless league of legend summoner experience.",
+      name: "Lucy Luo",
+      designation: "support",
+      company: "Brian",
+      image: "https://i0.wp.com/digiparadise.com/wp-content/uploads/2021/08/Sona-Wild-Rift-Guide-Build.jpg?fit=1360%2C760&ssl=1",
     },
     {
       testimonial:
-        "I've never met a web developer who truly cares about their clients' success like Rick does.",
-      name: "Chris Brown",
+        "I've never met a web developer who truly cares about their clients' success like Brian does.",
+      name: "Alec Choy",
       designation: "COO",
-      company: "DEF Corp",
+      company: "Jfrog",
       image: "https://randomuser.me/api/portraits/men/5.jpg",
     },
     {
@@ -201,33 +203,62 @@ import {
   
   const projects = [
     {
-      name: "Car Rent",
+      name: "Eats",
       description:
-        "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+        "Eats is a simplified yelp clone where users can discover,connect with local businesses of all sizes by different categories and leaving reviews.",
       tags: [
         {
           name: "react",
           color: "blue-text-gradient",
         },
         {
-          name: "mongodb",
-          color: "green-text-gradient",
+          name: "redux",
+          color: "blue-text-gradient",
         },
         {
-          name: "tailwind",
+          name: "ruby on rails",
           color: "pink-text-gradient",
         },
+        {
+          name:"posgreSQL",
+          color:"green-text-gradient",
+        }
       ],
-      image: carrent,
+      image: eats,
       source_code_link: "https://github.com/",
     },
     {
-      name: "Job IT",
+      name: "Lab of Love",
       description:
-        "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+        "Lab of Love is an original dating card game website. Each card on the website represents a user that someone could potentially match with.",
       tags: [
         {
           name: "react",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "redux",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "AWS",
+          color: "pink-text-gradient",
+        },
+        {
+           name:"MongoDB",
+           color:"green-text-gradient",
+        }
+      ],
+      image: lab,
+      source_code_link: "https://github.com/",
+    },
+    {
+      name: "BrianEats",
+      description:
+        "A web app that picks food for users base on their current location and mood. It utilized Google map API and Yelp fusion API which set routes of the designated restaurant on a global scale.",
+      tags: [
+        {
+          name: "javascript",
           color: "blue-text-gradient",
         },
         {
@@ -235,32 +266,108 @@ import {
           color: "green-text-gradient",
         },
         {
-          name: "scss",
+          name: "css",
           color: "pink-text-gradient",
         },
       ],
-      image: jobit,
+      image: brianeats,
       source_code_link: "https://github.com/",
     },
     {
-      name: "Trip Guide",
+      name: "BrandAI",
       description:
-        "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+        "This is a SaaS application that generates branding snippets and keywords for the customer's brand. It is a full stack application, and created as  an AI driven SaaS app.",
       tags: [
         {
           name: "nextjs",
           color: "blue-text-gradient",
         },
         {
-          name: "supabase",
+          name: "OpenAI",
           color: "green-text-gradient",
         },
+         {
+          name:"FastAPI",
+          color:"text-lime-500",
+         },
+         { 
+          name:"docker",
+          color:'text-sky-400',
+         },
+
         {
-          name: "css",
+          name: "tailwindcss",
           color: "pink-text-gradient",
         },
       ],
-      image: tripguide,
+      image: brandai,
+      source_code_link: "https://github.com/",
+    },
+    {
+      name: "TeamSync",
+      description:
+        "A web-based platform that allows user to sign in with google authentication and chat with friends and co-workers in different channels. Providing a dynamic and effcient solution for group communication. ",
+      tags: [
+        {
+          name: "react",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "firebase",
+          color: "green-text-gradient",
+        },
+        {
+          name: "tailwindcss",
+          color: "pink-text-gradient",
+        },
+      ],
+      image: teamsync,
+      source_code_link: "https://github.com/",
+    },
+    {
+      name: "Cup of Proteins",
+      description:
+        "A e-commerce platform that sells work out suppliments to gym enthusiast. Utilizing santity.io and stripe api to enhance the cycle of purchasing experience ",
+      tags: [
+        {
+          name: "nextjs",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "react",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "sanityio",
+          color: "green-text-gradient",
+        },
+        {
+          name: "stripe-api",
+          color: "pink-text-gradient",
+        },
+      ],
+      image:cpn,
+      source_code_link: "https://github.com/",
+    },
+    {
+      name: "astorscientific",
+      description:
+        "A multi-vendors ecommerce platform customize to inline with startup's business model, connecting buyers and vendors in lifescience industry ",
+      tags: [
+        {
+          name: "wordpress",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "woocommerce",
+          color: "green-text-gradient",
+        },
+        {
+          name: "dokan",
+          color: "pink-text-gradient",
+        },
+      ],
+      image:astor2,
       source_code_link: "https://github.com/",
     },
   ];
