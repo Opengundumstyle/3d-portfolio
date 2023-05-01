@@ -8,9 +8,10 @@ import { projects } from "../constants"
 import { fadeIn,textVariant } from "../utils/motion"
 
 
-const ProjectCard =({index,name,description,tags,image,source_code_link})=>{
+const ProjectCard =({index,name,description,tags,image,source_code_link,demo_link,category})=>{
       return (
          <motion.div variants={fadeIn("up","spring",index*0.5,0.75)}>
+          
              <Tilt
                options={{
                   max:45,
@@ -23,7 +24,7 @@ const ProjectCard =({index,name,description,tags,image,source_code_link})=>{
                         src={image} 
                         alt={name}
                         className="w-full h-full object-cover rounded-2xl"/>
-                       <div className="absolute inset-0 flex justify-end m-3 card-img_hover">
+                       <div className="absolute inset-0 flex justify-end m-3 card-img_hover gap-2">
                              <div
                                 onClick={()=>window.open(source_code_link,"_blank")}
                                 className="black-gradient w-10 h-10 rounded-full flex justify-center items-center cursor-pointer">
@@ -32,8 +33,10 @@ const ProjectCard =({index,name,description,tags,image,source_code_link})=>{
                        </div>
                 </div>
                 <div className="mt-5">
+                       <a href={demo_link} target="_blank">
                         <h3 className="text-white font-bold text-[24px]">{name}</h3>
                         <p className="mt-2 text-secondary text-[14px]">{description}</p>
+                        </a>
                 </div>
                 <div className="mt-4 flex flex-wrap gap-2">
                     {tags.map((tag)=>(
@@ -68,12 +71,43 @@ const Works = () => {
           </motion.p>
       </div>
       <div className="mt-20 flex flex-wrap gap-7">
-          {projects.map((project,index)=>(
-               <ProjectCard 
-                 key ={`project-${index}`}
-                 index={index}
-                 {...project}/>
-          ))}
+         <div className="mb-8">
+              <div>Full-Stacks</div>
+              <div className="flex flex-wrap gap-7">
+                {projects.map((project,index)=>(
+                    project.category === 'fullstack' &&
+                    <ProjectCard 
+                      key ={`project-${index}`}
+                      index={index}
+                      {...project}/>
+                
+                ))}
+              </div>
+          </div>
+          <div className="mb-8">
+              <div>E-commerce & Ai</div>
+              <div className="flex flex-wrap gap-7">
+                {projects.map((project,index)=>(
+                  project.category === 'Ecommerce & Ai' &&
+                  <ProjectCard 
+                    key ={`project-${index}`}
+                    index={index}
+                    {...project}/>
+              ))}
+              </div>
+          </div>
+          <div>
+              <div>Game & Apps</div>
+              <div className="flex flex-wrap gap-7">
+                {projects.map((project,index)=>(
+                  project.category === 'games & apps' &&
+                  <ProjectCard 
+                    key ={`project-${index}`}
+                    index={index}
+                    {...project}/>
+              ))}
+              </div>
+          </div>
       </div>
     </>
   )

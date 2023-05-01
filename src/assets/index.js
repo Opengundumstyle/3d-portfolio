@@ -21,23 +21,24 @@ import tailwind from "./tech/tailwind.png";
 import typescript from "./tech/typescript.png";
 import threejs from "./tech/threejs.svg";
 
-import meta from "./company/meta.png";
-import shopify from "./company/shopify.png";
-import starbucks from "./company/starbucks.png";
-import tesla from "./company/tesla.png";
+
 import igenesis from "./company/igenesis.png";
 import quanta from "./company/quanta.png";
 import appacademy from "./company/app academy.webp";
 
-import jobit from "./jobit.png";
+
 import lab from "./lab.png";
 import eats from "./eats.png";
 import brianeats from "./BrianEatSnapShot.png";
 import brandai from "./brandai.png";
 import teamsync from "./teamsync.png";
-import astroscience from './astroscientific.png';
 import cpn from './cpn.png'
 import astor2 from './astor2.png'
+import journizen from './journizen.png'
+import jobfinder from './jobfinder.jpeg'
+import zhileplay from './zhileplay.png'
+import blogbox from './blogbox.png'
+import staylocal from './staylocal.png'
 
 export {
   logo,
@@ -61,11 +62,6 @@ export {
   tailwind,
   typescript,
   threejs,
-  meta,
-  shopify,
-  starbucks,
-  tesla,
-  jobit,
   igenesis,
   quanta,
   appacademy,
@@ -74,7 +70,11 @@ export {
   brianeats,
   brandai,
   teamsync,
-  astroscience,
   cpn,
-  astor2
+  astor2,
+  journizen,
+  jobfinder,
+  zhileplay,
+  blogbox,
+  staylocal,
 };

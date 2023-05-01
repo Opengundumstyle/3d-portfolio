@@ -15,7 +15,6 @@ import {
     git,
     figma,
     docker,
-    meta,
     appacademy,
     threejs,
     igenesis,
@@ -25,10 +24,14 @@ import {
     brianeats,
     brandai,
     teamsync,
-    astroscience,
     cpn,
     astor2,
     logo,
+    journizen,
+    jobfinder,
+    zhileplay,
+    blogbox,
+    staylocal,
   } from "../assets";
   
   export const navLinks = [
@@ -177,11 +180,11 @@ import {
   const testimonials = [
     {
       testimonial:
-        "Brian is the best jungle NA, duoing with him gets the seemless league of legend summoner experience.",
+        "Zhile is a curious software engineer with a keen interest in expanding his knowledge and creating innovative programs. During our tenure at App Academy, he consistently sought to delve deeper into the topics at hand by posing insightful queries. Additionally, he harbors a fervor for developing noval projects that incorporate different technologies, such as Journizen, brand-ai and brianeats. I am eager to witness his future endeavors!",
       name: "Lucy Luo",
-      designation: "support",
-      company: "Brian",
-      image: "https://i0.wp.com/digiparadise.com/wp-content/uploads/2021/08/Sona-Wild-Rift-Guide-Build.jpg?fit=1360%2C760&ssl=1",
+      designation: "software engineer",
+      company: "Amazon",
+      image: "https://media.licdn.com/dms/image/C5603AQHVyR_LKbT1nA/profile-displayphoto-shrink_800_800/0/1571629263468?e=2147483647&v=beta&t=G-hyHBTZ9fRznE5--Py8o9a9_WygoW9qlc2shBbjt1o",
     },
     {
       testimonial:
@@ -194,10 +197,10 @@ import {
     {
       testimonial:
         "After Rick optimized our website, our traffic increased by 50%. We can't thank them enough!",
-      name: "Lisa Wang",
-      designation: "CTO",
-      company: "456 Enterprises",
-      image: "https://randomuser.me/api/portraits/women/6.jpg",
+      name: "Cindy Vuong",
+      designation: "product manager",
+      // company: "AA Anumni",
+      image: "https://media.licdn.com/dms/image/C5603AQFLPZTdZvmKHg/profile-displayphoto-shrink_800_800/0/1660179760551?e=2147483647&v=beta&t=l9kpgRrdqILDdpy2nj_Pnt-5MGycfmHlkWddFeQsIbk",
     },
   ];
   
@@ -225,12 +228,45 @@ import {
         }
       ],
       image: eats,
-      source_code_link: "https://github.com/",
+      source_code_link: "https://github.com/Opengundumstyle/eats",
+      demo_link:'https://yeats.herokuapp.com/',
+      category:"fullstack",
     },
     {
-      name: "Lab of Love",
+      name: "StayLocal",
       description:
-        "Lab of Love is an original dating card game website. Each card on the website represents a user that someone could potentially match with.",
+        "Eats is a simplified yelp clone where users can discover,connect with local businesses of all sizes by different categories and leaving reviews.",
+      tags: [
+        {
+          name: "react",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "nextjs",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "mongodb",
+          color: "pink-text-gradient",
+        },
+        {
+          name: "prisma",
+          color: "pink-text-gradient",
+        },
+        {
+          name:"tailwindcss",
+          color:"green-text-gradient",
+        }
+      ],
+      image: staylocal,
+      source_code_link: "https://github.com/Opengundumstyle/StayLocal/tree/main/staylocal",
+      demo_link:'https://stay-local-ekijcggmn-opengundumstyle.vercel.app/',
+      category:"fullstack",
+    },
+    {
+      name: "ZhilePlay",
+      description:
+        "Zhileplay is a video sharing platform. Each person can comment, like, subscribe to the other zhileplayers' posts and have the absolute freedom to share their own ones.",
       tags: [
         {
           name: "react",
@@ -241,37 +277,51 @@ import {
           color: "blue-text-gradient",
         },
         {
-          name: "AWS",
+          name: "firebase",
           color: "pink-text-gradient",
         },
         {
-           name:"MongoDB",
+           name:"mongoDB",
            color:"green-text-gradient",
+           
         }
       ],
-      image: lab,
-      source_code_link: "https://github.com/",
+      image: zhileplay,
+      source_code_link: "https://github.com/Opengundumstyle/ZhilePlay",
+      demo_link:'https://www.zhileplay.com/',
+      category:"fullstack",
     },
     {
-      name: "BrianEats",
+      name: "Journizen",
       description:
-        "A web app that picks food for users base on their current location and mood. It utilized Google map API and Yelp fusion API which set routes of the designated restaurant on a global scale.",
+        " A social media base platform that generates everything from memes and text prompts to inspire more creative UI/UX designs by uitlizing openai."
+        ,
       tags: [
         {
-          name: "javascript",
+          name: "react",
           color: "blue-text-gradient",
         },
         {
-          name: "restapi",
+          name: "nodejs",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "openai",
           color: "green-text-gradient",
         },
         {
-          name: "css",
+          name: "cloudinary",
+          color: "green-text-gradient",
+        },
+        {
+          name: "mongoDB",
           color: "pink-text-gradient",
         },
       ],
-      image: brianeats,
-      source_code_link: "https://github.com/",
+      image:journizen,
+      source_code_link: "https://github.com/Opengundumstyle/Journizen",
+      demo_link:'https://journizen.cloud/',
+      category:"Ecommerce & Ai",
     },
     {
       name: "BrandAI",
@@ -283,25 +333,30 @@ import {
           color: "blue-text-gradient",
         },
         {
-          name: "OpenAI",
+          name: "openai",
           color: "green-text-gradient",
         },
          {
-          name:"FastAPI",
+          name:"fastapi",
           color:"text-lime-500",
          },
          { 
           name:"docker",
           color:'text-sky-400',
          },
-
+         {
+          name: "aws-lambda",
+          color: "pink-text-gradient",
+          },
         {
           name: "tailwindcss",
-          color: "pink-text-gradient",
+          color: "text-pink-500",
         },
       ],
       image: brandai,
-      source_code_link: "https://github.com/",
+      source_code_link: "https://github.com/Opengundumstyle/brandAI",
+      demo_link:'https://brand-ai-one.vercel.app/',
+      category:"Ecommerce & Ai",
     },
     {
       name: "TeamSync",
@@ -317,12 +372,14 @@ import {
           color: "green-text-gradient",
         },
         {
-          name: "tailwindcss",
+          name: "materialui",
           color: "pink-text-gradient",
         },
       ],
       image: teamsync,
-      source_code_link: "https://github.com/",
+      source_code_link: "https://github.com/Opengundumstyle/TeamSync",
+      demo_link:'https://teamsync-52949.web.app/',
+      category:"games & apps",
     },
     {
       name: "Cup of Proteins",
@@ -347,10 +404,12 @@ import {
         },
       ],
       image:cpn,
-      source_code_link: "https://github.com/",
+      source_code_link: "https://github.com/Opengundumstyle/cup-of-proteins",
+      demo_link:'https://cup-of-proteins-m69c1r7ca-opengundumstyle.vercel.app/',
+      category:"Ecommerce & Ai",
     },
     {
-      name: "astorscientific",
+      name: "Astor Scientific",
       description:
         "A multi-vendors ecommerce platform customize to inline with startup's business model, connecting buyers and vendors in lifescience industry ",
       tags: [
@@ -364,12 +423,124 @@ import {
         },
         {
           name: "dokan",
+          color: "green-text-gradient",
+        },
+        {
+          name: "MySQL",
+          color: "pink-text-gradient",
+        },
+        {
+          name: "php",
           color: "pink-text-gradient",
         },
       ],
       image:astor2,
       source_code_link: "https://github.com/",
+      demo_link:'https://lifesciencedemo.store/',
+      category:"Ecommerce & Ai",
     },
+    {
+      name: "Jobfinder",
+      description:
+        "A moblie app that asists job seeker in his job hunting with the enssential & easy to use functionalities like key word filtering, job posts display by popularity,job types and etc.",
+      tags: [
+        {
+          name: "react native",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "restapi",
+          color: "green-text-gradient",
+        },
+        {
+          name: "css",
+          color: "pink-text-gradient",
+        },
+      ],
+      image:jobfinder,
+      source_code_link: "https://github.com/Opengundumstyle/JobFinder",
+      demo_link:'https://github.com/Opengundumstyle/JobFinder',
+      category:"games & apps",
+    },
+    {
+      name: "BlogBox",
+      description:
+        "A moblie app that asists job seeker in his job hunting with the enssential & easy to use functionalities like key word filtering, job posts display by popularity,job types and etc.",
+      tags: [
+        {
+          name: "react",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "contextapi",
+          color: "green-text-gradient",
+        },
+        {
+          name: "MySQL",
+          color: "pink-text-gradient",
+        },
+        {
+          name: "scss",
+          color: "pink-text-gradient",
+        },
+      ],
+      image:blogbox,
+      source_code_link: "https://github.com/Opengundumstyle/JobFinder",
+      demo_link:'https://github.com/Opengundumstyle/JobFinder',
+      category:"fullstack",
+    },
+    {
+      name: "Lab of Love",
+      description:
+        "Lab of Love is an original dating card game website. Each card on the website represents a user that someone could potentially match with.",
+      tags: [
+        {
+          name: "react",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "redux",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "aws",
+          color: "pink-text-gradient",
+        },
+        {
+           name:"mongoDB",
+           color:"green-text-gradient",
+           
+        }
+      ],
+      image: lab,
+      source_code_link: "https://github.com/enintoah/lab_of_love",
+      demo_link:'https://laboflove.herokuapp.com/#/welcome',
+      category:"games & apps",
+    },
+    {
+      name: "BrianEats",
+      description:
+        "A web app that picks food for users base on their current location and mood. It utilized Google map API and Yelp fusion API which set routes of the designated restaurant on a global scale.",
+      tags: [
+        {
+          name: "javascript",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "restapi",
+          color: "green-text-gradient",
+        },
+        {
+          name: "css",
+          color: "pink-text-gradient",
+        },
+      ],
+      image: brianeats,
+      source_code_link: "https://github.com/Opengundumstyle/BrianEats",
+      demo_link:'https://brianeats.herokuapp.com/',
+      category:"games & apps",
+    },
+   
   ];
   
   export { services, technologies, experiences, testimonials, projects };
