@@ -314,8 +314,8 @@ import {
         },
       ],
       image:blogbox,
-      source_code_link: "https://github.com/Opengundumstyle/JobFinder",
-      demo_link:'https://github.com/Opengundumstyle/JobFinder',
+      source_code_link: "https://github.com/Opengundumstyle/BlogBox",
+      demo_link:'https://github.com/Opengundumstyle/BlogBox',
       category:"fullstack",
     },
     {

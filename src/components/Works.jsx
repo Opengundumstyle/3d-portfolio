@@ -76,7 +76,7 @@ const Works = () => {
       </div>
       <div className="mt-20 flex flex-wrap gap-7">
          <div className="mb-8">
-              <div>Full-Stacks</div>
+              <div className="text-slate-400font-semibold text-lg">Full-Stacks</div>
               <div className="flex flex-wrap gap-7">
                 {projects.map((project,index)=>(
                     project.category === 'fullstack' &&
@@ -89,7 +89,7 @@ const Works = () => {
               </div>
           </div>
           <div className="mb-8">
-              <div>E-commerce & Ai</div>
+              <div className="text-slate-400 font-semibold text-lg">E-commerce & Ai</div>
               <div className="flex flex-wrap gap-7">
                 {projects.map((project,index)=>(
                   project.category === 'Ecommerce & Ai' &&
@@ -101,7 +101,7 @@ const Works = () => {
               </div>
           </div>
           <div>
-              <div>Game & Apps</div>
+              <div className="text-slate-400 font-semibold text-lg">Game & Apps</div>
               <div className="flex flex-wrap gap-7">
                 {projects.map((project,index)=>(
                   project.category === 'games & apps' &&
