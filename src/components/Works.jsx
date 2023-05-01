@@ -76,7 +76,7 @@ const Works = () => {
       </div>
       <div className="mt-20 flex flex-wrap gap-7">
          <div className="mb-8">
-              <div className="text-slate-400font-semibold text-lg">Full-Stacks</div>
+              <div className="text-slate-400 font-semibold text-lg">Full-Stacks</div>
               <div className="flex flex-wrap gap-7">
                 {projects.map((project,index)=>(
                     project.category === 'fullstack' &&
