@@ -1,4 +1,4 @@
-import React,{Suspense}from 'react'
+import React,{Suspense,useRef, useState}from 'react'
 import { Canvas } from '@react-three/fiber'
 import { Decal,Float,OrbitControls,Preload,useTexture } from '@react-three/drei'
 import CanvasLoader from '../Loader'
@@ -32,7 +32,7 @@ const Ball = (props)=> {
 const BallCanvas = ({icon,name}) =>{
    return (
 
-   <div className='flex flex-col items-center'>
+   <div className='flex flex-col items-center cursor-pointer'>
     <Canvas
         frameloop='demand'
         gl={{preserveDrawingBuffer:true}}>
