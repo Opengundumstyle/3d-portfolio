@@ -10,7 +10,7 @@ const Ball = (props)=> {
     <Float speed={0} rotationIntensity={1} floatIntensity={2}>
        <ambientLight intensity={0.25}/>
        <directionalLight position={[0,0,0.05]}/>
-       <mesh castShadow receiveShadow scale={2.75}>
+       <mesh castShadow receiveShadow scale={2.3}>
              <icosahedronGeometry args={[1,1]}/>
              <meshStandardMaterial
                color="#fff8eb"
@@ -29,8 +29,10 @@ const Ball = (props)=> {
 }
 
 
-const BallCanvas = ({icon}) =>{
+const BallCanvas = ({icon,name}) =>{
    return (
+
+   <div className='flex flex-col items-center'>
     <Canvas
         frameloop='demand'
         gl={{preserveDrawingBuffer:true}}>
@@ -39,9 +41,12 @@ const BallCanvas = ({icon}) =>{
                 enableZoom={false}/>
              <Ball imgUrl={icon}/>
           </Suspense>
-
       <Preload all/>
    </Canvas>
+      <div className='text-slate-400'>
+        {name}
+       </div>
+   </div>
    )
 }
 

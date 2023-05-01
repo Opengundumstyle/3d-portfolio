@@ -292,6 +292,33 @@ import {
       category:"fullstack",
     },
     {
+      name: "BlogBox",
+      description:
+        "A moblie app that asists job seeker in his job hunting with the enssential & easy to use functionalities like key word filtering, job posts display by popularity,job types and etc.",
+      tags: [
+        {
+          name: "react",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "contextapi",
+          color: "green-text-gradient",
+        },
+        {
+          name: "MySQL",
+          color: "pink-text-gradient",
+        },
+        {
+          name: "scss",
+          color: "pink-text-gradient",
+        },
+      ],
+      image:blogbox,
+      source_code_link: "https://github.com/Opengundumstyle/JobFinder",
+      demo_link:'https://github.com/Opengundumstyle/JobFinder',
+      category:"fullstack",
+    },
+    {
       name: "Journizen",
       description:
         " A social media base platform that generates everything from memes and text prompts to inspire more creative UI/UX designs by uitlizing openai."
@@ -462,33 +489,7 @@ import {
       demo_link:'https://github.com/Opengundumstyle/JobFinder',
       category:"games & apps",
     },
-    {
-      name: "BlogBox",
-      description:
-        "A moblie app that asists job seeker in his job hunting with the enssential & easy to use functionalities like key word filtering, job posts display by popularity,job types and etc.",
-      tags: [
-        {
-          name: "react",
-          color: "blue-text-gradient",
-        },
-        {
-          name: "contextapi",
-          color: "green-text-gradient",
-        },
-        {
-          name: "MySQL",
-          color: "pink-text-gradient",
-        },
-        {
-          name: "scss",
-          color: "pink-text-gradient",
-        },
-      ],
-      image:blogbox,
-      source_code_link: "https://github.com/Opengundumstyle/JobFinder",
-      demo_link:'https://github.com/Opengundumstyle/JobFinder',
-      category:"fullstack",
-    },
+  
     {
       name: "Lab of Love",
       description:
