@@ -188,15 +188,15 @@ import {
     },
     {
       testimonial:
-        "I've never met a web developer who truly cares about their clients' success like Brian does.",
-      name: "Alec Choy",
-      designation: "COO",
-      company: "Jfrog",
+        "I've never met a web developer who truly cares about their clients' success like Zhile does.",
+      name: "Josiah Leon",
+      designation: "Instructor",
+      company: "App Academy",
       image: "https://randomuser.me/api/portraits/men/5.jpg",
     },
     {
       testimonial:
-        "After Rick optimized our website, our traffic increased by 50%. We can't thank them enough!",
+        "After Zhile optimized our website, our traffic increased by 50%. We can't thank them enough!",
       name: "Cindy Vuong",
       designation: "product manager",
       // company: "AA Anumni",
@@ -235,7 +235,7 @@ import {
     {
       name: "StayLocal",
       description:
-        "Eats is a simplified yelp clone where users can discover,connect with local businesses of all sizes by different categories and leaving reviews.",
+        "StayLocal is an advance airbnb clone where travelers can discover and book with local residence of all sizes by different categories and locations",
       tags: [
         {
           name: "react",
@@ -266,7 +266,7 @@ import {
     {
       name: "ZhilePlay",
       description:
-        "Zhileplay is a video sharing platform. Each person can comment, like, subscribe to the other zhileplayers' posts and have the absolute freedom to share their own ones.",
+        "Zhileplay is a video sharing platform. Each person can comment, like, subscribe to the other zhileplayers' posts and have the absolute freedom to share their owns.",
       tags: [
         {
           name: "react",
