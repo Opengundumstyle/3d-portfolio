@@ -10,7 +10,7 @@ import Modal from './Modal'
 import { useState} from 'react'
 
 
-const ServiceCard = ({index,title,icon,desc,setOpen,setSelectedService})=>{
+const ServiceCard = ({index,title,icon,setOpen,setSelectedService})=>{
 
    const scrollToTop = () => {
       window.scrollTo({
@@ -26,7 +26,7 @@ const ServiceCard = ({index,title,icon,desc,setOpen,setSelectedService})=>{
           <motion.div
             onClick={
                    ()=> {
-                     setSelectedService({ title, icon, desc });
+                     setSelectedService({ title, icon });
                      setOpen(true);
                      scrollToTop()
                   }}
@@ -80,7 +80,6 @@ const About = () => {
        {open && selectedService && <Modal 
                                     icon={selectedService.icon} 
                                     title={selectedService.title} 
-                                    desc = {selectedService.desc}
                                     setOpen={setOpen}/>}
     </>
   )

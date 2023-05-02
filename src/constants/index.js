@@ -57,22 +57,22 @@ import {
     {
       title: "Web Developer",
       icon: web,
-      desc:"As a full-stack web developer, I have gained proficiency in a wide range of software engineering and web development technologies, including Ruby On Rails, React, Redux, and PostgreSQL. Through my experience in delivering dynamic features within strict timelines, overseeing backend system design, and maintaining a user-focused approach, I have developed a strong attention to detail, multitasking skills, and ability to collaborate with others. These qualities have made me a flexible and capable candidate in the field of web development."
+     
     },
     {
       title: "React Native Developer",
       icon: mobile,
-      desc:"As a full-stack web developer, I have gained proficiency in a wide range of software engineering and web development technologies, including Ruby On Rails, React, Redux, and PostgreSQL. Through my experience in delivering dynamic features within strict timelines, overseeing backend system design, and maintaining a user-focused approach, I have developed a strong attention to detail, multitasking skills, and ability to collaborate with others. These qualities have made me a flexible and capable candidate in the field of web development."
+     
     },
     {
       title: "Backend Developer",
       icon: backend,
-      desc:"As a full-stack web developer, I have gained proficiency in a wide range of software engineering and web development technologies, including Ruby On Rails, React, Redux, and PostgreSQL. Through my experience in delivering dynamic features within strict timelines, overseeing backend system design, and maintaining a user-focused approach, I have developed a strong attention to detail, multitasking skills, and ability to collaborate with others. These qualities have made me a flexible and capable candidate in the field of web development."
+     
     },
     {
       title: "Co-Founder",
       icon: creator,
-      desc:"As a full-stack web developer, I have gained proficiency in a wide range of software engineering and web development technologies, including Ruby On Rails, React, Redux, and PostgreSQL. Through my experience in delivering dynamic features within strict timelines, overseeing backend system design, and maintaining a user-focused approach, I have developed a strong attention to detail, multitasking skills, and ability to collaborate with others. These qualities have made me a flexible and capable candidate in the field of web development."
+     
     },
   ];
   
