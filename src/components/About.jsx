@@ -10,7 +10,7 @@ import Modal from './Modal'
 import { useState} from 'react'
 
 
-const ServiceCard = ({index,title,icon, setOpen})=>{
+const ServiceCard = ({index,title,icon,desc,setOpen,setSelectedService})=>{
 
    const scrollToTop = () => {
       window.scrollTo({
@@ -25,8 +25,10 @@ const ServiceCard = ({index,title,icon, setOpen})=>{
        <Tilt className="xs:w-[250px] w-full cursor-pointer" >
           <motion.div
             onClick={
-                   ()=> {setOpen(true);
-                   scrollToTop()
+                   ()=> {
+                     setSelectedService({ title, icon, desc });
+                     setOpen(true);
+                     scrollToTop()
                   }}
             variants={fadeIn("right","spring",0.5*index,0.75)}
             className="w-full green-pink-gradient p-[1px] rounded-[20px] shadow-card">
@@ -51,7 +53,7 @@ const ServiceCard = ({index,title,icon, setOpen})=>{
 const About = () => {
 
    const [open,setOpen] = useState(false);
-  
+   const [selectedService, setSelectedService] = useState(null);
 
   return (
     <>
@@ -68,11 +70,18 @@ const About = () => {
       </motion.p>
       <div className='mt-20 flex flex-wrap gap-10'>
           {services.map((service,index)=>( 
-              <ServiceCard key={service.title} index={index} {...service} setOpen={setOpen}/>
+              <ServiceCard key={service.title} 
+                            index={index} 
+                            {...service} 
+                            setOpen={setOpen}
+                            setSelectedService={setSelectedService}/>
           ))}
       </div>
-       {open && <Modal setOpen={setOpen}/>}
-       
+       {open && selectedService && <Modal 
+                                    icon={selectedService.icon} 
+                                    title={selectedService.title} 
+                                    desc = {selectedService.desc}
+                                    setOpen={setOpen}/>}
     </>
   )
 }

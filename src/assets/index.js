@@ -20,6 +20,9 @@ import redux from "./tech/redux.png";
 import tailwind from "./tech/tailwind.png";
 import typescript from "./tech/typescript.png";
 import threejs from "./tech/threejs.svg";
+import rubyonrails from "./tech/rubyonrails.png";
+import postgresql from "./tech/Postgresql.png";
+import mysql from "./tech/mysql.png";
 
 
 import igenesis from "./company/igenesis.png";
@@ -77,4 +80,7 @@ export {
   zhileplay,
   blogbox,
   staylocal,
+  rubyonrails,
+  postgresql,
+  mysql,
 };

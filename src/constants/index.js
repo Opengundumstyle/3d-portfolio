@@ -32,6 +32,10 @@ import {
     zhileplay,
     blogbox,
     staylocal,
+    rubyonrails,
+    postgresql,
+    mysql,
+   
   } from "../assets";
   
   export const navLinks = [
@@ -53,18 +57,22 @@ import {
     {
       title: "Web Developer",
       icon: web,
+      desc:"As a full-stack web developer, I have gained proficiency in a wide range of software engineering and web development technologies, including Ruby On Rails, React, Redux, and PostgreSQL. Through my experience in delivering dynamic features within strict timelines, overseeing backend system design, and maintaining a user-focused approach, I have developed a strong attention to detail, multitasking skills, and ability to collaborate with others. These qualities have made me a flexible and capable candidate in the field of web development."
     },
     {
       title: "React Native Developer",
       icon: mobile,
+      desc:"As a full-stack web developer, I have gained proficiency in a wide range of software engineering and web development technologies, including Ruby On Rails, React, Redux, and PostgreSQL. Through my experience in delivering dynamic features within strict timelines, overseeing backend system design, and maintaining a user-focused approach, I have developed a strong attention to detail, multitasking skills, and ability to collaborate with others. These qualities have made me a flexible and capable candidate in the field of web development."
     },
     {
       title: "Backend Developer",
       icon: backend,
+      desc:"As a full-stack web developer, I have gained proficiency in a wide range of software engineering and web development technologies, including Ruby On Rails, React, Redux, and PostgreSQL. Through my experience in delivering dynamic features within strict timelines, overseeing backend system design, and maintaining a user-focused approach, I have developed a strong attention to detail, multitasking skills, and ability to collaborate with others. These qualities have made me a flexible and capable candidate in the field of web development."
     },
     {
       title: "Co-Founder",
       icon: creator,
+      desc:"As a full-stack web developer, I have gained proficiency in a wide range of software engineering and web development technologies, including Ruby On Rails, React, Redux, and PostgreSQL. Through my experience in delivering dynamic features within strict timelines, overseeing backend system design, and maintaining a user-focused approach, I have developed a strong attention to detail, multitasking skills, and ability to collaborate with others. These qualities have made me a flexible and capable candidate in the field of web development."
     },
   ];
   
@@ -82,6 +90,10 @@ import {
       icon: javascript,
     },
     {
+      name: "Ruby on Rails",
+      icon: rubyonrails,
+    },
+    {
       name: "TypeScript",
       icon: typescript,
     },
@@ -93,14 +105,22 @@ import {
       name: "Redux Toolkit",
       icon: redux,
     },
-    {
-      name: "Tailwind CSS",
-      icon: tailwind,
-    },
+    // {
+    //   name: "Tailwind CSS",
+    //   icon: tailwind,
+    // },
     {
       name: "Node JS",
       icon: nodejs,
     },
+    {
+      name: "Postgesql",
+      icon: postgresql,
+    },
+    // {
+    //   name: "mySQL",
+    //   icon: mysql,
+    // },
     {
       name: "MongoDB",
       icon: mongodb,
@@ -113,10 +133,10 @@ import {
       name: "git",
       icon: git,
     },
-    {
-      name: "figma",
-      icon: figma,
-    },
+    // {
+    //   name: "figma",
+    //   icon: figma,
+    // },
     {
       name: "docker",
       icon: docker,
