@@ -9,7 +9,7 @@ const CoFounderModal = () => {
         <br />
         <br />
         <div className='text-[17px]'>
-          check out our platform <a href="https://astorscientific.com/" target="_blank" className='text-violet-400'>astorscientific.com</a>
+          check out our platform <a href="https://astorscientific.com/" target="_blank" className='text-violet-400 hover:underline'>astorscientific.com</a>
         </div>
     </div>
     
