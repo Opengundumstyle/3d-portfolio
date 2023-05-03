@@ -406,29 +406,6 @@ import {
       category:"Ecommerce & Ai",
     },
     {
-      name: "TeamSync",
-      description:
-        "A web-based platform that allows user to sign in with google authentication and chat with friends and co-workers in different channels. Providing a dynamic and effcient solution for group communication. ",
-      tags: [
-        {
-          name: "react",
-          color: "blue-text-gradient",
-        },
-        {
-          name: "firebase",
-          color: "green-text-gradient",
-        },
-        {
-          name: "materialui",
-          color: "pink-text-gradient",
-        },
-      ],
-      image: teamsync,
-      source_code_link: "https://github.com/Opengundumstyle/TeamSync",
-      demo_link:'https://teamsync-52949.web.app/',
-      category:"games & apps",
-    },
-    {
       name: "Cup of Proteins",
       description:
         "A e-commerce platform that sells work out suppliments to gym enthusiast. Utilizing santity.io and stripe api to enhance the cycle of purchasing experience ",
@@ -487,6 +464,52 @@ import {
       category:"Ecommerce & Ai",
     },
     {
+      name: "BrianEats",
+      description:
+        "A web app that picks food for users base on their current location and mood. It utilized Google map API and Yelp fusion API which set routes of the designated restaurant on a global scale.",
+      tags: [
+        {
+          name: "javascript",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "restapi",
+          color: "green-text-gradient",
+        },
+        {
+          name: "css",
+          color: "pink-text-gradient",
+        },
+      ],
+      image: brianeats,
+      source_code_link: "https://github.com/Opengundumstyle/BrianEats",
+      demo_link:'https://brianeats.herokuapp.com/',
+      category:"games & apps",
+    },
+    {
+      name: "TeamSync",
+      description:
+        "A web-based platform that allows user to sign in with google authentication and chat with friends and co-workers in different channels. Providing a dynamic and effcient solution for group communication. ",
+      tags: [
+        {
+          name: "react",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "firebase",
+          color: "green-text-gradient",
+        },
+        {
+          name: "materialui",
+          color: "pink-text-gradient",
+        },
+      ],
+      image: teamsync,
+      source_code_link: "https://github.com/Opengundumstyle/TeamSync",
+      demo_link:'https://teamsync-52949.web.app/',
+      category:"games & apps",
+    },
+    {
       name: "Jobfinder",
       description:
         "A moblie app that asists job seeker in his job hunting with the enssential & easy to use functionalities like key word filtering, job posts display by popularity,job types and etc.",
@@ -536,29 +559,6 @@ import {
       image: lab,
       source_code_link: "https://github.com/enintoah/lab_of_love",
       demo_link:'https://laboflove.herokuapp.com/#/welcome',
-      category:"games & apps",
-    },
-    {
-      name: "BrianEats",
-      description:
-        "A web app that picks food for users base on their current location and mood. It utilized Google map API and Yelp fusion API which set routes of the designated restaurant on a global scale.",
-      tags: [
-        {
-          name: "javascript",
-          color: "blue-text-gradient",
-        },
-        {
-          name: "restapi",
-          color: "green-text-gradient",
-        },
-        {
-          name: "css",
-          color: "pink-text-gradient",
-        },
-      ],
-      image: brianeats,
-      source_code_link: "https://github.com/Opengundumstyle/BrianEats",
-      demo_link:'https://brianeats.herokuapp.com/',
       category:"games & apps",
     },
    

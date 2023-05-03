@@ -1,20 +1,25 @@
 import Tilt from "react-tilt"
-import {motion} from 'framer-motion'
+import {AnimatePresence, motion} from 'framer-motion'
 
 import { styles } from "../styles"
 import { github } from "../assets"
 import { SectionWrapper } from "../hoc"
 import { projects } from "../constants"
 import { fadeIn,textVariant } from "../utils/motion"
+import { useState,useEffect} from "react"
+import Pagination from "./Pagination"
 
 
-const ProjectCard =({index,name,description,tags,image,source_code_link,demo_link})=>{
+const ProjectCardMotion = ({ index, children }) => (
+  <motion.div variants={fadeIn("up", "spring", index * 0.5, 0.75)}>
+      {children}
+  </motion.div>
+);
 
-   
 
+
+const ProjectCard =({name,description,tags,image,source_code_link,demo_link})=>{
       return (
-         <motion.div variants={fadeIn("up","spring",index*0.5,0.75)}>
-          
              <Tilt
                options={{
                   max:45,
@@ -50,13 +55,41 @@ const ProjectCard =({index,name,description,tags,image,source_code_link,demo_lin
                 </div>
              
              </Tilt>
-         </motion.div>
+    
       )
 }
 
 
 
 const Works = () => {
+
+  const [currentPage, setCurrentPage] = useState(1)
+  const [projectCategory, setProjuctCategory] = useState('Full Stacks')
+  const [projectsPerPage] = useState(4)
+
+  const indexOfLastProject  = currentPage * projectsPerPage
+  const indexOfFirstProject = indexOfLastProject - projectsPerPage
+  const currentProjects = projects.slice(indexOfFirstProject,indexOfLastProject)
+
+  const paginate = (pageNumber)=>setCurrentPage(pageNumber)
+
+  useEffect(()=>{
+        
+        switch (currentPage) {
+          case 1:
+          setProjuctCategory('Full Stacks')
+          break;
+          case 2:
+          setProjuctCategory('E-commerce & Ai')
+          break;
+          case 3:
+          setProjuctCategory('Games & Apps')
+          break;
+          default:
+            break;
+        }
+         
+  },[currentPage])
 
   return (
     <>
@@ -76,42 +109,30 @@ const Works = () => {
       </div>
       <div className="mt-20 flex flex-wrap gap-7">
          <div className="mb-8">
-              <div className="text-slate-400 font-semibold text-lg">Full-Stacks</div>
+              <motion.div variants={fadeIn("","",0.4,1)}>
+                <div className="text-slate-400 font-semibold text-lg">{projectCategory}</div>
+              </motion.div>
               <div className="flex flex-wrap gap-7">
-                {projects.map((project,index)=>(
-                    project.category === 'fullstack' &&
-                    <ProjectCard 
-                      key ={`project-${index}`}
-                      index={index}
-                      {...project}/>
-                
+
+                {currentProjects.map((project,index)=>(
+                     <AnimatePresence  custom={currentPage}>
+                        <ProjectCardMotion index={index} key={`project-${index}`}>
+                            <ProjectCard {...project} />
+                        </ProjectCardMotion>
+                      </AnimatePresence>
                 ))}
+
               </div>
+             <motion.div variants={fadeIn("","",0.6,3)}>
+              <Pagination 
+                  projectsPerPage={projectsPerPage}
+                  totalProjects={projects.length}
+                  paginate={paginate}
+                  currentPage={currentPage}
+              />
+              </motion.div>
           </div>
-          <div className="mb-8">
-              <div className="text-slate-400 font-semibold text-lg">E-commerce & Ai</div>
-              <div className="flex flex-wrap gap-7">
-                {projects.map((project,index)=>(
-                  project.category === 'Ecommerce & Ai' &&
-                  <ProjectCard 
-                    key ={`project-${index}`}
-                    index={index}
-                    {...project}/>
-              ))}
-              </div>
-          </div>
-          <div>
-              <div className="text-slate-400 font-semibold text-lg">Game & Apps</div>
-              <div className="flex flex-wrap gap-7">
-                {projects.map((project,index)=>(
-                  project.category === 'games & apps' &&
-                  <ProjectCard 
-                    key ={`project-${index}`}
-                    index={index}
-                    {...project}/>
-              ))}
-              </div>
-          </div>
+         
       </div>
     </>
   )
