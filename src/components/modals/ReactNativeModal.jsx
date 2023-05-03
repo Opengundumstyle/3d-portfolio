@@ -3,7 +3,7 @@ import React from 'react'
 const ReactNativeModal = () => {
   return (
     <div className='mt-[20px] text-[20px] flex flex-col items-center'>
-        During the job hunt I built a mobile app that assist me in job hunting process, It starts with curiosity but I found it quite fun to transfer what I know into mobile app developement. 
+        During my job hunt, I built a mobile app that assisted me in the job hunting process. It started with curiosity, but I found it quite enjoyable to transfer my knowledge into mobile app development.
         <br />
         <br />
         <br />

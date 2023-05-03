@@ -4,11 +4,11 @@ import { AiFillLinkedin } from "react-icons/ai";
 const DeveloperModal = () => {
   return (
     <div className='text-[20px] flex flex-col items-center'>
-      Growing up in the internet of things era, I was always curious and fascinated by how everything is pieced together on the other side of the user interface.
+     Growing up in the era of the Internet of Things, I was always curious and fascinated by how everything is pieced together beyond the user interface. 
       <br />
       <br />
       <div>
-         There is still much to learn and I hope you can join me on the journey.
+      There is still much to learn, and I invite you to join me on this journey.
       </div>
       <div className='flex flex-row items-center mt-[50px] gap-[10px] '>
       <div onClick={()=>window.open('https://github.com/Opengundumstyle',"_blank")} >
