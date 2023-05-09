@@ -22,7 +22,7 @@ const ServiceCard = ({index,title,icon,setOpen,setSelectedService})=>{
    
    return (
     
-       <Tilt className="xs:w-[250px] w-full cursor-pointer" >
+       <Tilt className="xs:w-[250px] w-full cursor-pointer z-0" >
           <motion.div
             onClick={
                    ()=> {
@@ -62,7 +62,7 @@ const About = () => {
          <h2 className={styles.sectionHeadText}>Overview.</h2>
       </motion.div>
       <motion.p variants={fadeIn("","",0.1,1 )}
-                className="mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]">
+                className="mt-4 text-secondary text-[17px] max-w-3xl leading-[30px] z-0">
                  I am a software engineer with proficiency and enthusiasm in software engineering and web development. 
                  I gained expertise in Ruby on Rails, React, Redux, and PostgreSQL through a full-stack coding bootcamp at App Academy. 
                  I have experience in delivering dynamic features within strict timelines, overseeing backend system design, and maintaining 

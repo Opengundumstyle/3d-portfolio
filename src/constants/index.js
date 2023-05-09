@@ -34,6 +34,7 @@ import {
     staylocal,
     rubyonrails,
     postgresql,
+    vibey,
     mysql,
    
   } from "../assets";
@@ -312,30 +313,30 @@ import {
       category:"fullstack",
     },
     {
-      name: "BlogBox",
+      name: "Vibey",
       description:
-        "A moblie app that asists job seeker in his job hunting with the enssential & easy to use functionalities like key word filtering, job posts display by popularity,job types and etc.",
+        "It's a music streaming application that allows users to listen to their favorite songs, discover new music. It offers a similar user interface and features as the original Spotify app..",
       tags: [
         {
           name: "react",
           color: "blue-text-gradient",
         },
         {
-          name: "contextapi",
+          name: "redux",
           color: "green-text-gradient",
         },
         {
-          name: "MySQL",
+          name: "rapidapi",
           color: "pink-text-gradient",
         },
         {
-          name: "scss",
+          name: "tailwindcss",
           color: "pink-text-gradient",
         },
       ],
-      image:blogbox,
-      source_code_link: "https://github.com/Opengundumstyle/BlogBox",
-      demo_link:'https://github.com/Opengundumstyle/BlogBox',
+      image:vibey,
+      source_code_link: "https://github.com/Opengundumstyle/Vibey",
+      demo_link:'https://vibeyopen.com/',
       category:"fullstack",
     },
     {
@@ -486,29 +487,29 @@ import {
       demo_link:'https://brianeats.herokuapp.com/',
       category:"games & apps",
     },
-    {
-      name: "TeamSync",
-      description:
-        "A web-based platform that allows user to sign in with google authentication and chat with friends and co-workers in different channels. Providing a dynamic and effcient solution for group communication. ",
-      tags: [
-        {
-          name: "react",
-          color: "blue-text-gradient",
-        },
-        {
-          name: "firebase",
-          color: "green-text-gradient",
-        },
-        {
-          name: "materialui",
-          color: "pink-text-gradient",
-        },
-      ],
-      image: teamsync,
-      source_code_link: "https://github.com/Opengundumstyle/TeamSync",
-      demo_link:'https://teamsync-52949.web.app/',
-      category:"games & apps",
-    },
+    // {
+    //   name: "TeamSync",
+    //   description:
+    //     "A web-based platform that allows user to sign in with google authentication and chat with friends and co-workers in different channels. Providing a dynamic and effcient solution for group communication. ",
+    //   tags: [
+    //     {
+    //       name: "react",
+    //       color: "blue-text-gradient",
+    //     },
+    //     {
+    //       name: "firebase",
+    //       color: "green-text-gradient",
+    //     },
+    //     {
+    //       name: "materialui",
+    //       color: "pink-text-gradient",
+    //     },
+    //   ],
+    //   image: teamsync,
+    //   source_code_link: "https://github.com/Opengundumstyle/TeamSync",
+    //   demo_link:'https://teamsync-52949.web.app/',
+    //   category:"games & apps",
+    // },
     {
       name: "Jobfinder",
       description:
@@ -532,7 +533,33 @@ import {
       demo_link:'https://github.com/Opengundumstyle/JobFinder',
       category:"games & apps",
     },
-  
+    {
+      name: "BlogBox",
+      description:
+        "A moblie app that asists job seeker in his job hunting with the enssential & easy to use functionalities like key word filtering, job posts display by popularity,job types and etc.",
+      tags: [
+        {
+          name: "react",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "contextapi",
+          color: "green-text-gradient",
+        },
+        {
+          name: "MySQL",
+          color: "pink-text-gradient",
+        },
+        {
+          name: "scss",
+          color: "pink-text-gradient",
+        },
+      ],
+      image:blogbox,
+      source_code_link: "https://github.com/Opengundumstyle/BlogBox",
+      demo_link:'https://github.com/Opengundumstyle/BlogBox',
+      category:"games & apps",
+    },
     {
       name: "Lab of Love",
       description:
@@ -561,6 +588,7 @@ import {
       demo_link:'https://laboflove.herokuapp.com/#/welcome',
       category:"games & apps",
     },
+    
    
   ];
   

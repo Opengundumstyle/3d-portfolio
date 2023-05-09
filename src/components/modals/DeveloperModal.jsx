@@ -3,11 +3,11 @@ import { github } from '../../assets'
 import { AiFillLinkedin } from "react-icons/ai";
 const DeveloperModal = () => {
   return (
-    <div className='text-[20px] flex flex-col items-center'>
+    <div className='text-base md:text-lg lg:text-xl xl:text-2xl flex flex-col items-center'>
      Growing up in the era of the Internet of Things, I was always curious and fascinated by how everything is pieced together beyond the user interface. 
       <br />
       <br />
-      <div>
+      <div className='hidden sm:inline-block' >
       There is still much to learn, and I invite you to join me on this journey.
       </div>
       <div className='flex flex-row items-center mt-[50px] gap-[10px] '>

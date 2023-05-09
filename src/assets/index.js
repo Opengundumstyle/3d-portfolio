@@ -42,6 +42,7 @@ import jobfinder from './jobfinder.jpeg'
 import zhileplay from './zhileplay.png'
 import blogbox from './blogbox.png'
 import staylocal from './staylocal.png'
+import vibey from './vibey.png'
 
 export {
   logo,
@@ -83,4 +84,5 @@ export {
   rubyonrails,
   postgresql,
   mysql,
+  vibey,
 };
