@@ -1,3 +1,3 @@
 # 3d-portfolio
 
-Building a personal portfolio with three js!
+check out my personal portfolio build with threeJS! [Here](https://zhilelin.com/)
