@@ -22,7 +22,8 @@ import typescript from "./tech/typescript.png";
 import threejs from "./tech/threejs.svg";
 import rubyonrails from "./tech/rubyonrails.png";
 import postgresql from "./tech/Postgresql.png";
-
+import mysql from'./tech/mysql.png'
+import tailwindcss from'./tech/tailwind.png'
 
 
 
@@ -53,5 +54,7 @@ export {
   typescript,
   threejs,
   rubyonrails,
-  postgresql
+  postgresql,
+  mysql,
+  tailwindcss
 };

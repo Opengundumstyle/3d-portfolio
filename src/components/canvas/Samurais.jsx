@@ -1,14 +1,24 @@
 import {Suspense,useEffect,useState} from 'react'
-import { Canvas } from '@react-three/fiber'
+import { Canvas,useFrame } from '@react-three/fiber'
 import { OrbitControls,Preload,useGLTF} from '@react-three/drei'
 import CanvasLoader from '../Loader'
 
 const Samurais = ({isMobile}) => {
 
-  const samurai = useGLTF('./samurai/scene.gltf')
+  const samurai = useGLTF('https://raw.githubusercontent.com/Opengundumstyle/samurai-3d-model/main/scene.gltf')
 
+  const [rotation, setRotation] = useState([0, 0, 0])
+   
+  useFrame((state, delta) => {
+    // Calculate the new rotation angle based on the time elapsed since the last frame
+    const angle = Math.sin(state.clock.elapsedTime * 0.4) * 0.1
+       // Calculate the new Y position based on the time elapsed since the last frame
+    const y = Math.sin(state.clock.elapsedTime * 0.1) * 0.02
+       // Set the new rotation state with a small change in the Y-axis
+       setRotation([0, angle, 0.02 + y])
+  })
   return (
-     <mesh>
+     <mesh mesh rotation={rotation}>
          <hemisphereLight intensity={0.15} groundColor="black"/>
          <pointLight intensity={1}/>
          <spotLight
@@ -21,8 +31,8 @@ const Samurais = ({isMobile}) => {
            />
          <primitive
           object={samurai.scene}
-          scale={isMobile?0.65:6}
-          position={isMobile?[0,-3,-2.2]:[-5,-10,-1.5]}
+          scale={isMobile?3:6}
+          position={isMobile?[0,-6,-2.2]:[-9,-11.5,-2]}
           rotation={[-0.01,-0.2,-0.1]}
          />
      </mesh>
@@ -32,6 +42,8 @@ const Samurais = ({isMobile}) => {
 const SamuraisCanvas = ()=>{
      
     const [isMobile,setIsMobile] = useState(false)
+  
+    
 
     useEffect(()=>{
 
@@ -51,23 +63,26 @@ const SamuraisCanvas = ()=>{
          }
     },[])
 
-
+   
      return (
         <Canvas
          frameloop='demand'
          shadows
-         camera={{position:[20,3,5],fov:25}}
-         gl={{preserveDrawingBuffer:true}}>
+         camera={{position:[25,3,5],fov:25}}
+         gl={{preserveDrawingBuffer:true}}
+        >
         <Suspense fallback={<CanvasLoader/>}>
            <OrbitControls 
              enableZoom={false}
              maxPolarAngle={Math.PI/2}
              minPolarAngle={Math.PI/2}
+            
            />
-           <Samurais isMobile={isMobile}/>
+           <Samurais isMobile={isMobile} />
         </Suspense>
 
-        <Preload all/>
+        <Preload all />
+        
         </Canvas>
      )
 }
