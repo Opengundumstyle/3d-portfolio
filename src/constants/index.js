@@ -9,33 +9,14 @@ import {
     css,
     reactjs,
     redux,
-    tailwind,
     nodejs,
     mongodb,
     git,
-    figma,
     docker,
-    appacademy,
     threejs,
-    igenesis,
-    quanta,
-    eats,
-    lab,
-    brianeats,
-    brandai,
-    teamsync,
-    cpn,
-    astor2,
-    logo,
-    journizen,
-    jobfinder,
-    zhileplay,
-    blogbox,
-    staylocal,
     rubyonrails,
     postgresql,
-    vibey,
-    mysql,
+   
    
   } from "../assets";
   
@@ -148,7 +129,7 @@ import {
     {
       title: "Software engineering intern",
       company_name: "igenesis biotech",
-      icon: igenesis,
+      icon: 'https://res.cloudinary.com/dzklgl8gn/image/upload/v1683739578/igenesis_vldymi.jpg',
       iconBg: "white",
       date: "March 2020 - April 2021",
       points: [
@@ -161,7 +142,7 @@ import {
     {
       title: "IT/software engineer intern",
       company_name: "Quanta Computer",
-      icon: quanta,
+      icon: 'https://res.cloudinary.com/dzklgl8gn/image/upload/v1683739579/quanta_ss2nva.png',
       iconBg: "gray",
       date: "Jan 2021 - Feb 2022",
       points: [
@@ -173,7 +154,7 @@ import {
     {
       title: "student",
       company_name: "App Academy",
-      icon: appacademy,
+      icon: 'https://res.cloudinary.com/dzklgl8gn/image/upload/v1683739578/app_academy_znexuj.webp',
       iconBg: "#383E56",
       date: "Jan 2022 - Jan 2023",
       points: [
@@ -186,7 +167,7 @@ import {
     {
       title: "Full stack Developer",
       company_name: "",
-      icon: logo,
+      icon: 'https://res.cloudinary.com/dzklgl8gn/image/upload/v1683739401/logo_edi0yj.svg',
       iconBg: "#E6DEDD",
       date: "Jan 2023 - Present",
       points: [
@@ -248,7 +229,7 @@ import {
           color:"green-text-gradient",
         }
       ],
-      image: eats,
+      image: 'https://res.cloudinary.com/dzklgl8gn/image/upload/v1683739333/eats_tjpqe3.png',
       source_code_link: "https://github.com/Opengundumstyle/eats",
       demo_link:'https://yeats.herokuapp.com/',
       category:"fullstack",
@@ -279,7 +260,7 @@ import {
           color:"green-text-gradient",
         }
       ],
-      image: staylocal,
+      image: 'https://res.cloudinary.com/dzklgl8gn/image/upload/v1683739431/staylocal_yrqjfg.png',
       source_code_link: "https://github.com/Opengundumstyle/StayLocal/tree/main/staylocal",
       demo_link:'https://stay-local-ekijcggmn-opengundumstyle.vercel.app/',
       category:"fullstack",
@@ -307,7 +288,7 @@ import {
            
         }
       ],
-      image: zhileplay,
+      image: 'https://res.cloudinary.com/dzklgl8gn/image/upload/v1683739435/zhileplay_b9ceft.png',
       source_code_link: "https://github.com/Opengundumstyle/ZhilePlay",
       demo_link:'https://www.zhileplay.com/',
       category:"fullstack",
@@ -334,7 +315,7 @@ import {
           color: "pink-text-gradient",
         },
       ],
-      image:vibey,
+      image:'https://res.cloudinary.com/dzklgl8gn/image/upload/v1683739402/vibey_hscqsl.png',
       source_code_link: "https://github.com/Opengundumstyle/Vibey",
       demo_link:'https://vibeyopen.com/',
       category:"fullstack",
@@ -366,7 +347,7 @@ import {
           color: "pink-text-gradient",
         },
       ],
-      image:journizen,
+      image:'https://res.cloudinary.com/dzklgl8gn/image/upload/v1683739358/journizen_bxe5iz.png',
       source_code_link: "https://github.com/Opengundumstyle/Journizen",
       demo_link:'https://journizen.cloud/',
       category:"Ecommerce & Ai",
@@ -401,7 +382,7 @@ import {
           color: "text-pink-500",
         },
       ],
-      image: brandai,
+      image: 'https://res.cloudinary.com/dzklgl8gn/image/upload/v1683739259/brandai_hsf9xc.png',
       source_code_link: "https://github.com/Opengundumstyle/brandAI",
       demo_link:'https://brand-ai-one.vercel.app/',
       category:"Ecommerce & Ai",
@@ -428,7 +409,7 @@ import {
           color: "pink-text-gradient",
         },
       ],
-      image:cpn,
+      image:'https://res.cloudinary.com/dzklgl8gn/image/upload/v1683739333/cpn_knjxwo.png',
       source_code_link: "https://github.com/Opengundumstyle/cup-of-proteins",
       demo_link:'https://cup-of-proteins-m69c1r7ca-opengundumstyle.vercel.app/',
       category:"Ecommerce & Ai",
@@ -459,7 +440,7 @@ import {
           color: "pink-text-gradient",
         },
       ],
-      image:astor2,
+      image:'https://res.cloudinary.com/dzklgl8gn/image/upload/v1683739259/astor2_e5qjlq.png',
       source_code_link: "https://github.com/",
       demo_link:'https://lifesciencedemo.store/',
       category:"Ecommerce & Ai",
@@ -482,7 +463,7 @@ import {
           color: "pink-text-gradient",
         },
       ],
-      image: brianeats,
+      image: 'https://res.cloudinary.com/dzklgl8gn/image/upload/v1683739259/BrianEatSnapShot_jlkcgg.png',
       source_code_link: "https://github.com/Opengundumstyle/BrianEats",
       demo_link:'https://brianeats.herokuapp.com/',
       category:"games & apps",
@@ -528,7 +509,7 @@ import {
           color: "pink-text-gradient",
         },
       ],
-      image:jobfinder,
+      image:'https://res.cloudinary.com/dzklgl8gn/image/upload/v1683739351/jobfinder_lnvvcf.jpg',
       source_code_link: "https://github.com/Opengundumstyle/JobFinder",
       demo_link:'https://github.com/Opengundumstyle/JobFinder',
       category:"games & apps",
@@ -555,7 +536,7 @@ import {
           color: "pink-text-gradient",
         },
       ],
-      image:blogbox,
+      image:'https://res.cloudinary.com/dzklgl8gn/image/upload/v1683739259/blogbox_bwuv0k.png',
       source_code_link: "https://github.com/Opengundumstyle/BlogBox",
       demo_link:'https://github.com/Opengundumstyle/BlogBox',
       category:"games & apps",
@@ -583,7 +564,7 @@ import {
            
         }
       ],
-      image: lab,
+      image: 'https://res.cloudinary.com/dzklgl8gn/image/upload/v1683739351/lab_bjqfjz.png',
       source_code_link: "https://github.com/enintoah/lab_of_love",
       demo_link:'https://laboflove.herokuapp.com/#/welcome',
       category:"games & apps",
