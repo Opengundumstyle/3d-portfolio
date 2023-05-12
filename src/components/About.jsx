@@ -63,11 +63,7 @@ const About = () => {
       </motion.div>
       <motion.p variants={fadeIn("","",0.1,1 )}
                 className="mt-4 text-secondary text-[17px] max-w-3xl leading-[30px] z-0">
-                 I am a software engineer with proficiency and enthusiasm in software engineering and web development. 
-                 I gained expertise in Ruby on Rails, React, Redux, and PostgreSQL through a full-stack coding bootcamp at App Academy. 
-                 I have experience in delivering dynamic features within strict timelines, overseeing backend system design, and maintaining 
-                 a user-focused approach. My attention to detail, multitasking skills, and ability to collaborate have made me a flexible 
-                  and capable candidate.
+              I've acquired proficiency in Typescript, React, Redux, SQL and MVC frameworks through my experience at App Academy's full-stack coding bootcamp and continuation of self-directed learning. My track record includes delivering dynamic features within tight deadlines, overseeing backend system design, and prioritizing user-centric approaches. 
       </motion.p>
       <div className='mt-20 flex flex-wrap gap-10'>
           {services.map((service,index)=>( 

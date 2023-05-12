@@ -7,10 +7,10 @@ const DeveloperModal = () => {
      Growing up in the era of the Internet of Things, I was always curious and fascinated by how everything is pieced together beyond the user interface. 
       <br />
       <br />
-      <div className='hidden sm:inline-block' >
+      <div className='hidden sm:inline-block md:text-md sm:text-sm lg:text-xl' >
       There is still much to learn, and I invite you to join me on this journey.
       </div>
-      <div className='flex flex-row items-center mt-[50px] gap-[10px] '>
+      <div className='flex flex-row items-center mt-[45px] gap-[10px] '>
       <div onClick={()=>window.open('https://github.com/Opengundumstyle',"_blank")} >
         <img src={github} alt="github" className="w-[50px] h-[50px] cursor-pointer hover:bg-violet-500 transition duration-100 ease-in-out rounded-lg "/>
      </div>
