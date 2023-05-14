@@ -25,6 +25,7 @@ import postgresql from "./tech/Postgresql.png";
 import mysql from'./tech/mysql.png'
 import tailwindcss from'./tech/tailwind.png'
 
+import booktopia from './booktopia.png'
 
 
 
@@ -56,5 +57,6 @@ export {
   rubyonrails,
   postgresql,
   mysql,
-  tailwindcss
+  tailwindcss,
+  booktopia
 };

@@ -27,7 +27,7 @@ const ServiceCard = ({index,title,icon,setOpen,setSelectedService})=>{
             onClick={
                    ()=> {
                      setSelectedService({ title, icon });
-                     setOpen(true);
+                     setTimeout(()=>setOpen(true),500) 
                      scrollToTop()
                   }}
             variants={fadeIn("right","spring",0.5*index,0.75)}

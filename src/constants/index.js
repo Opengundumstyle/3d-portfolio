@@ -16,6 +16,7 @@ import {
     threejs,
     rubyonrails,
     postgresql,
+    booktopia,
    
   } from "../assets";
   
@@ -142,7 +143,7 @@ import {
       company_name: "Quanta Computer",
       icon: 'https://res.cloudinary.com/dzklgl8gn/image/upload/v1683739579/quanta_ss2nva.png',
       iconBg: "gray",
-      date: "Jun 202 - Sep 2021",
+      date: "Jun 2020 - Sep 2020",
       points: [
         "Rebuilt and consolidated UI using Retool with backend engineers, transitioning from single to multiple page layout to support cross-functional departments, resulting in 25% workflow improvement and 30% increase in cost-efficiency for human resources.",
         "Collaborated with IT and project managers to execute a database migration project from Excel to MySQL",
@@ -409,34 +410,31 @@ import {
       category:"Ecommerce & Ai",
     },
     {
-      name: "Astor Scientific",
+      name: "Booktopia",
       description:
-        "A multi-vendors ecommerce platform customize to inline with startup's business model, connecting buyers and vendors in lifescience industry ",
+        "A chatbot that communicate with readers to provide deep insights for reading guide and links to the bookstore, it could be a Saas for various web-base e-commerce",
       tags: [
         {
-          name: "wordpress",
+          name: "nextjs",
           color: "blue-text-gradient",
         },
         {
-          name: "woocommerce",
+          name: "chatgpt",
           color: "green-text-gradient",
         },
         {
-          name: "dokan",
+          name: "upstash",
           color: "green-text-gradient",
         },
         {
-          name: "MySQL",
+          name: "tailwindcss",
           color: "pink-text-gradient",
         },
-        {
-          name: "php",
-          color: "pink-text-gradient",
-        },
+        
       ],
-      image:'https://res.cloudinary.com/dzklgl8gn/image/upload/v1683739259/astor2_e5qjlq.png',
-      source_code_link: "https://github.com/",
-      demo_link:'https://lifesciencedemo.store/',
+      image:booktopia,
+      source_code_link: "https://github.com/Opengundumstyle/booktopia",
+      demo_link:'https://booktopia.vercel.app/',
       category:"Ecommerce & Ai",
     },
     {
