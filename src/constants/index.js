@@ -17,6 +17,9 @@ import {
     rubyonrails,
     postgresql,
     booktopia,
+    zcommerce,
+    teamsync,
+    amazora
    
   } from "../assets";
   
@@ -203,9 +206,48 @@ import {
   
   const projects = [
     {
-      name: "Eats",
+      name: "Zcommerce",
       description:
-        "Eats is a simplified yelp clone where users can discover,connect with local businesses of all sizes by different categories and leaving reviews.",
+        "A shopping platform that provides exellent browsing and payment checkout experience along with real time order status history",
+      tags: [
+        {
+          name: "react",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "zustand",
+          color: "blue-text-gradient",
+        },
+        {
+          name:"NextJs",
+          color:"pink-text-gradient",
+        },
+        {
+          name: "stripeapi",
+          color: "pink-text-gradient",
+        },
+        {
+          name:"posgreSQL",
+          color:"green-text-gradient",
+        },
+        {
+          name:"webhooks",
+          color:"green-text-gradient",
+        },
+        {
+          name:"daisyui/tailwindcss",
+          color:"text-pink-500",
+        }
+      ],
+      image:  zcommerce,
+      source_code_link: "https://github.com/Opengundumstyle/Zcommerce",
+      demo_link:'https://zcommerce-silk.vercel.app/',
+      category:"fullstack",
+    },
+    {
+      name: "ZhilePlay",
+      description:
+        "Zhileplay is a video sharing platform. Each person can comment, like, subscribe to the other zhileplayers' posts and have the absolute freedom to share their owns.",
       tags: [
         {
           name: "react",
@@ -216,17 +258,18 @@ import {
           color: "blue-text-gradient",
         },
         {
-          name: "ruby on rails",
+          name: "firebase",
           color: "pink-text-gradient",
         },
         {
-          name:"posgreSQL",
-          color:"green-text-gradient",
+           name:"mongoDB",
+           color:"green-text-gradient",
+           
         }
       ],
-      image: 'https://res.cloudinary.com/dzklgl8gn/image/upload/v1683739333/eats_tjpqe3.png',
-      source_code_link: "https://github.com/Opengundumstyle/eats",
-      demo_link:'https://yeats.herokuapp.com/',
+      image: 'https://res.cloudinary.com/dzklgl8gn/image/upload/v1683739435/zhileplay_b9ceft.png',
+      source_code_link: "https://github.com/Opengundumstyle/ZhilePlay",
+      demo_link:'https://www.zhileplay.com/',
       category:"fullstack",
     },
     {
@@ -258,34 +301,6 @@ import {
       image: 'https://res.cloudinary.com/dzklgl8gn/image/upload/v1683739431/staylocal_yrqjfg.png',
       source_code_link: "https://github.com/Opengundumstyle/StayLocal/tree/main/staylocal",
       demo_link:'https://stay-local-ekijcggmn-opengundumstyle.vercel.app/',
-      category:"fullstack",
-    },
-    {
-      name: "ZhilePlay",
-      description:
-        "Zhileplay is a video sharing platform. Each person can comment, like, subscribe to the other zhileplayers' posts and have the absolute freedom to share their owns.",
-      tags: [
-        {
-          name: "react",
-          color: "blue-text-gradient",
-        },
-        {
-          name: "redux",
-          color: "blue-text-gradient",
-        },
-        {
-          name: "firebase",
-          color: "pink-text-gradient",
-        },
-        {
-           name:"mongoDB",
-           color:"green-text-gradient",
-           
-        }
-      ],
-      image: 'https://res.cloudinary.com/dzklgl8gn/image/upload/v1683739435/zhileplay_b9ceft.png',
-      source_code_link: "https://github.com/Opengundumstyle/ZhilePlay",
-      demo_link:'https://www.zhileplay.com/',
       category:"fullstack",
     },
     {
@@ -460,29 +475,6 @@ import {
       demo_link:'https://brianeats.herokuapp.com/',
       category:"games & apps",
     },
-    // {
-    //   name: "TeamSync",
-    //   description:
-    //     "A web-based platform that allows user to sign in with google authentication and chat with friends and co-workers in different channels. Providing a dynamic and effcient solution for group communication. ",
-    //   tags: [
-    //     {
-    //       name: "react",
-    //       color: "blue-text-gradient",
-    //     },
-    //     {
-    //       name: "firebase",
-    //       color: "green-text-gradient",
-    //     },
-    //     {
-    //       name: "materialui",
-    //       color: "pink-text-gradient",
-    //     },
-    //   ],
-    //   image: teamsync,
-    //   source_code_link: "https://github.com/Opengundumstyle/TeamSync",
-    //   demo_link:'https://teamsync-52949.web.app/',
-    //   category:"games & apps",
-    // },
     {
       name: "Jobfinder",
       description:
@@ -560,6 +552,112 @@ import {
       source_code_link: "https://github.com/enintoah/lab_of_love",
       demo_link:'https://laboflove.herokuapp.com/#/welcome',
       category:"games & apps",
+    },
+    {
+      name: "Eats",
+      description:
+        "Eats is a simplified yelp clone where users can discover,connect with local businesses of all sizes by different categories and leaving reviews.",
+      tags: [
+        {
+          name: "react",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "redux",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "ruby on rails",
+          color: "pink-text-gradient",
+        },
+        {
+          name:"posgreSQL",
+          color:"green-text-gradient",
+        }
+      ],
+      image: 'https://res.cloudinary.com/dzklgl8gn/image/upload/v1683739333/eats_tjpqe3.png',
+      source_code_link: "https://github.com/Opengundumstyle/eats",
+      demo_link:'https://yeats.herokuapp.com/',
+      category:"fullstack",
+    },
+      {
+      name: "TeamSync",
+      description:
+        "A web-based platform that allows user to sign in with google authentication and chat with friends and co-workers in different channels. Providing a dynamic and effcient solution for group communication. ",
+      tags: [
+        {
+          name: "react",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "firebase",
+          color: "green-text-gradient",
+        },
+        {
+          name: "materialui",
+          color: "pink-text-gradient",
+        },
+      ],
+      image:teamsync,
+      source_code_link: "https://github.com/Opengundumstyle/TeamSync",
+      demo_link:'https://teamsync-52949.web.app/',
+      category:"More",
+    },
+    {
+      name: "Amazora",
+      description:
+        "Lab of Love is an original dating card game website. Each card on the website represents a user that someone could potentially match with.",
+      tags: [
+        {
+          name: "react",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "webhooks",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "stripe",
+          color: "pink-text-gradient",
+        },
+        {
+           name:"firestore",
+           color:"green-text-gradient",
+           
+        }
+      ],
+      image: amazora,
+      source_code_link: "https://github.com/Opengundumstyle/amazora",
+      demo_link:'https://amazora.vercel.app/',
+      category:"More",
+    },
+    {
+      name: "Astor Scientific",
+      description:
+        "Lab of Love is an original dating card game website. Each card on the website represents a user that someone could potentially match with.",
+      tags: [
+        {
+          name: "react",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "redux",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "aws",
+          color: "pink-text-gradient",
+        },
+        {
+           name:"mongoDB",
+           color:"green-text-gradient",
+           
+        }
+      ],
+      image: 'https://res.cloudinary.com/dzklgl8gn/image/upload/v1683739351/lab_bjqfjz.png',
+      source_code_link: "https://github.com/enintoah/lab_of_love",
+      demo_link:'https://laboflove.herokuapp.com/#/welcome',
+      category:"More",
     },
     
    

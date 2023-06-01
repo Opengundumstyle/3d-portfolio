@@ -26,7 +26,9 @@ import mysql from'./tech/mysql.png'
 import tailwindcss from'./tech/tailwind.png'
 
 import booktopia from './booktopia.png'
-
+import zcommerce from './zc.png'
+import teamsync from './teamsync.png'
+import amazora from './amazora.png'
 
 
 
@@ -58,5 +60,8 @@ export {
   postgresql,
   mysql,
   tailwindcss,
-  booktopia
+  booktopia,
+  zcommerce,
+  teamsync,
+  amazora
 };
